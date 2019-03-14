@@ -110,8 +110,11 @@ nav ul a:hover{
 color:rgb(161, 112, 21);
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* MAIN */
+
 main{
-    background-color: rgb(248, 39, 39);
+    background-color: rgb(255, 255, 255);
     grid-column: 1/-1;
     grid-row: 1/2;
 }
@@ -142,4 +145,133 @@ object-position: top;
     text-align: center;
     text-transform: uppercase;
     
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* SHOP */
+#udstyr{
+    grid-template-columns: 100px 1fr 1fr 1fr 1fr 100px;
+    grid-template-rows: 100px 1fr 1fr 100px;
+}
+
+#udstyr .infobox{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+}
+#udstyr .infobox2{
+    grid-column: 4/6;
+    grid-row: 1/2;
+    margin-top: 50px;
+    background-color: lightgray;
+}
+#udstyr .udstyrtext{
+    color: white;
+    padding-left: 50px;
+    margin-top: 13px;
+    text-transform: uppercase;
+    
+}
+#udstyr img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#udstyr #img1div{
+    margin: 50px;
+    border: 1px solid rgb(114, 114, 114);
+    grid-column: 2/3;
+    grid-row: 2/3;
+   
+}
+#udstyr #img2div{
+    margin: 50px;
+    border: 1px solid rgb(114, 114, 114);
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+#udstyr #img3div{
+    margin: 50px;
+    border: 1px solid rgb(114, 114, 114);
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+#udstyr #img4div{
+    margin: 50px;
+    border: 1px solid rgb(114, 114, 114);
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+#udstyr #img1div {
+    text-align: center;
+}
+
+#udstyr #img1div #text {
+    color: lightgrey;
+    text-transform: uppercase;
+    text-align: center;
+}
+#udstyr #img1div #textpris{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+}
+/* ------ */
+#udstyr #img1div {
+    text-align: center;
+}
+
+#udstyr #img2div #text{
+    color: lightgrey;
+    text-transform: uppercase;
+    text-align: center;
+}
+#udstyr #img2div #textpris{
+    color: rgb(141, 60, 60);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* ----------- */
+#udstyr #img1div {
+    text-align: center;
+}
+#udstyr #img3div #text{
+    color: lightgrey;
+    text-transform: uppercase;
+    text-align: center;
+}
+#udstyr #img3div #textpris{
+    color: rgb(141, 60, 60);
+    text-transform: uppercase;
+    text-align: center;
+}
+/* --------- */
+#udstyr #img1div {
+    text-align: center;
+}
+#udstyr #img4div #text{
+    color: lightgrey;
+    text-transform: uppercase;
+    text-align: center;
+}
+#udstyr #img4div #textpris{
+    color: rgb(141, 60, 60);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#udstyr #linkshop {
+    grid-column: 3/5;
+    grid-row: 3/4;
+    }
+
+#udstyr #linkshop a{
+
+color: black;
+font-size: 3em;
+text-align: center;
+text-transform: uppercase;
 }
