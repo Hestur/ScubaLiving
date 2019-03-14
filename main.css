@@ -3,7 +3,7 @@
 #gridlayout{        
 
     width: 100%;
-    height: 100%;
+    
 
     display:grid;
 
@@ -15,7 +15,7 @@
 
 header{
     background-color:whitesmoke;
-
+    max-height: 80px;
     grid-column: 1 / -1;
     grid-row: 1/2;
     position:sticky;
@@ -24,7 +24,7 @@ header{
     display:grid;
     
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px;
+    grid-template-rows: 1fr;
    
    
 
@@ -83,7 +83,7 @@ object-fit: cover;
 nav{
     grid-column: 3/6;
     grid-row: 1/2;
-    line-height: 50px;
+    line-height: 30px;
   
 
 }
@@ -104,17 +104,16 @@ font-family: 'Raleway', sans-serif;
 font-weight: 300;    
 font-size: 1em;
 
+
 }
-nav ul li a:hover{
-border-bottom: 2px solid black;
-color:orange;
+nav ul a:hover{
+color:rgb(161, 112, 21);
 }
 
 main{
     background-color: rgb(248, 39, 39);
-
     grid-column: 1/-1;
-    grid-row: 1/-1;
+    grid-row: 1/2;
 }
 main section{
     width:100%;
@@ -123,20 +122,24 @@ main section{
     display: grid;
 }
 #home{
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 2fr 100px 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 #home img{
 grid-column:1/-1;
 grid-row:1/-1;
 width: 100%;
 height: 100%;
-object-fit: cover;
+object-fit: fill;
 object-position: top;
 }
 #home .infobox{
     grid-column: 2/3;
-    grid-row: 2/3;
-    padding: 50px;
-    background-color: black;
+    grid-row: 3/4;
+    margin-top: 100px;
+    padding-top: 40px;
+    background-color: lightgray;
+    text-align: center;
+    text-transform: uppercase;
+    
 }
