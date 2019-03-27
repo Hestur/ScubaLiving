@@ -35,12 +35,12 @@ header #search {
 header #imglock {
   height: 25px;
   width: 25px;
-  grid-column: 9/10;
+  grid-column: 8/9;
   grid-row: 1/2;
 }
 header #login {
   border: 1px solid whitesmoke;
-  margin-top: 10px;
+  margin-top: 0px;
   grid-column: 9/10;
   grid-row: 1/2;
   background-color: lightgray;
@@ -120,9 +120,10 @@ main section {
   grid-row: 3/4;
   margin-top: 100px;
   padding-top: 40px;
-  background-color: rgba(0, 0, 0, 0.603);
+  background-color: rgba(0, 0, 0, 0.34);
   text-align: center;
   text-transform: uppercase;
+  color: whitesmoke;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
