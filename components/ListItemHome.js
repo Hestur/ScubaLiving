@@ -1,6 +1,6 @@
 import React from "react";
 
-class ListItem extends React.Component {
+class ListItemHome extends React.Component {
   render() {
     return (
       <a className="list-item" href="#home">
@@ -10,4 +10,4 @@ class ListItem extends React.Component {
   }
 }
 
-export default ListItem;
+export default ListItemHome;
