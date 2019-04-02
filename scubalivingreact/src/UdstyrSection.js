@@ -1,5 +1,5 @@
 import React from "react";
-import InfoBox from "./InfoBox";
+import InfoBoxUdstyr from "./InfoBoxUdstyr";
 import InfoBox2 from "./InfoBox2";
 import UdstyrDiv1 from "./UdstyrDiv1";
 import UdstyrDiv2 from "./UdstyrDiv2";
@@ -11,7 +11,7 @@ class UdstyrSection extends React.Component {
   render() {
     return (
       <section id="udstyr" className="udstyr">
-        <InfoBox />
+        <InfoBoxUdstyr />
         <InfoBox2 />
         <UdstyrDiv1 />
         <UdstyrDiv2 />

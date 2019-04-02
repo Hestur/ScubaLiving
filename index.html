@@ -12,7 +12,7 @@
 <body>
         <div id="gridlayout" class="gridlayout" data-component="GridLayout">
                 <header class="header" data-component="Header">
-                    <section class="logo" data-component="HeaderLogoSection">
+                    <section class="logo">
             
                     <img src="img/ScubaLiving_logo_small.svg" alt="logo" data-component="HeaderLogoImg">
             
@@ -28,53 +28,72 @@
                            <a class="list-item" data-component="ListItemOmOs" href="#om">OM OS</a>
                        </ul> 
                     </nav>
-                    <!-- <div id="topnav"><input type="text" name="mail" id="search"></div> -->
-                    <div id="searchbar" class="searchbar" data-component="SearchBar"><input type="text" name="mail" id="search" class="searchinput" data-component="SearchInput"><button id="knap" class="searchbtn" data-component="SearchBtn">Søg</button></div>
-                    <img id="imglock" src="img/lock-icon-300x300.png" alt="" class="imglockinlogo" data-component="ImgLockinLogo"><button id="login" class="login" data-component="LoginBtn">Login</button>
+                    
+                    <div id="searchbar" class="searchbar" data-component="SearchBar">
+                        <input type="text" name="mail" id="search" class="searchinput" data-component="SearchInput">
+                        <button id="knap" class="searchbtn" data-component="SearchBtn">Søg</button></div>
+                    <img id="imglock" src="img/lock-icon-300x300.png" alt="" class="imglockinlogo"><button id="login" class="login" data-component="LoginBtn">Login</button>
                 </header>
-                <main class="main" data-component="Main"><section id="home" class="home" data-component="HomeSection">
-                        <img src="img/scuba2.jpg" alt="mainhero" class="mainheroimg" data-component="MainHeroImg">
-                        <div class="infobox" data-component="InfoBox">
+              
+              
+              <!-- Home -->
+              
+                <main class="main" data-component="Main">
+                    <section id="home" class="home" data-component="HomeSection">
+                        <img src="img/scuba2.jpg" alt="mainimg" class="mainimg" data-component="MainImg">
+                        <div class="infoboxmain" data-component="InfoBoxMain">
                             <h2 class="heading2" data-component="Heading2">The best way to observe a fish is to become a fish <br> <h3 class="heading3" data-component="Heading3">jacques cousteau</h3></br></h2>
                         </div>
                     </section>
+
+
+                    <!-- Udstyr -->
+
                     <section id="udstyr" class="udstyr" data-component="UdstyrSection">
                         
-                        <div class="infobox" class="infobox" data-component="InfoBox">
+                        <div class="infoboxudstyr" data-component="InfoBoxUdstyr">
                             <h2 class="udstyrtext" data-component="UdstyrText">Mest populære dykkerudstyr</h2>
                         </div>
                         <div class="infobox2" data-component="InfoBox2">
                             </div>
-                       <div id="img1div" class="udstyrdiv1" data-component="UdstyrDiv1"> <img id="img1" src="img/reg.jpg" alt="" class="udstyrimg1" data-component="UdstyrImg1"> <a id="text" class="udstyrtext" data-component="UdstyrText">Regulator med resist</a> <br> <a id="textpris" class="udstyrpris" data-component="UdstyrPris"> KR.899.- </a> </br> </div>
-                       <div id="img2div" class="udstyrdiv2" data-component="UdstyrDiv2"> <img  id="img2" src="img/hanske.jpg" alt="" class="udstyrimg2" data-component="UdstyrImg2"> <a id="text" class="udstyrtext" data-component="UdstyrText">Coldwater gloves</a> <br> <a id="textpris" class="udstyrpris" data-component="UdstyrPris"> KR.1499.- </a> </br> </div>
-                        <div id="img3div" class="udstyrdiv3" data-component="UdstyrDiv3"> <img id="img3"src="img/reg.jpg" alt="" class="udstyrimg3" data-component="UdstyrImg3"> <a id="text" class="udstyrtext" data-component="UdstyrText">Regulator med resist</a> <br> <a id="textpris" class="udstyrpris" data-component="UdstyrPris"> KR.899.- </a> </br> </div>
-                        <div id="img4div" class="udstyrdiv4" data-component="UdstyrDiv4"> <img id="img4" src="img/hanske.jpg" alt="" class="udstyrimg4" data-component="UdstyrImg4"> <a id="text" class="udstyrtext" data-component="UdstyrText">Coldwater gloves</a> <br> <a id="textpris" class="udstyrpris" data-component="UdstyrPris"> KR.1499.- </a> </br> </div>
+                       <div id="img1div" class="udstyrdiv1" data-component="UdstyrDiv1"> <img id="img1" src="img/reg.jpg" alt="" class="udstyrimg1" data-component="UdstyrImg1"> <a id="text" class="udstyrtext" data-component="UdstyrTextItem1">Regulator med resist</a> <br> <a id="textpris" class="udstyrpris" data-component="UdstyrPrisItem1"> KR.899.- </a> </br> </div>
+                       <div id="img2div" class="udstyrdiv2" data-component="UdstyrDiv2"> <img  id="img2" src="img/hanske.jpg" alt="" class="udstyrimg2" data-component="UdstyrImg2"> <a id="text" class="udstyrtext" data-component="UdstyrTextItem2">Coldwater gloves</a> <br> <a id="textpris" class="udstyrpris" data-component="UdstyrPrisItem2"> KR.1499.- </a> </br> </div>
+                        <div id="img3div" class="udstyrdiv3" data-component="UdstyrDiv3"> <img id="img3"src="img/reg.jpg" alt="" class="udstyrimg3" data-component="UdstyrImg3"> <a id="text" class="udstyrtext" data-component="UdstyrTextItem3">Regulator med resist</a> <br> <a id="textpris" class="udstyrpris" data-component="UdstyrPrisItem3"> KR.899.- </a> </br> </div>
+                        <div id="img4div" class="udstyrdiv4" data-component="UdstyrDiv4"> <img id="img4" src="img/hanske.jpg" alt="" class="udstyrimg4" data-component="UdstyrImg4"> <a id="text" class="udstyrtext" data-component="UdstyrTextItem4">Coldwater gloves</a> <br> <a id="textpris" class="udstyrpris" data-component="UdstyrPrisItem4"> KR.1499.- </a> </br> </div>
                         <div id="linkshop" class="linkshop" data-component="LinkShop"><a href="" class="link" data-component="Link">Se mere lækkert udstyr her...</a></div>
                     </section>
 
-                    <!-- <section id="rejser">
+                    <!-- Rejser -->
+
+                    <section id="rejser" class="rejser" data-component="RejserSection">
                         
-                            <div class="infobox">
-                                <h2 class="rejsetext">Dyk ud i verden</h2>
+                            <div class="infoboxrejser" data-component="InfoBoxRejser">
+                                <h2 class="rejsetext" data-component="RejseText">Dyk ud i verden</h2>
                             </div>
-                            <div class="infobox2">
+                            <div class="infobox2" data-component="InfoBox2">
                                 </div>
-                             <div id="rejs1"> <img src="img/norge.JPG" alt=""> <div class="rejseinfo1"> <a class="Capstxt">Norge</a> <br>Nordeuropas bedste dykkerspots ligger i Norge. Vi har 25 års erfaring med dyr i Norge. Oplev det klareste vand i verden!</br> </div> </div>
-                             <div id="rejs2"> <img src="img/malta.jpg" alt=""> <div class="rejseinfo2"> <a class="Capstxt">Malta</a> <br>Oplev skønne malta og det syge dyreliv og sammenhold. Vi arrangerer dykkerrejser til Malta hele året rundt.<br> </div> </div>
+                             <div id="rejs1" class="rejse1" data-component="Rejse1"> <img src="img/norge.JPG" alt=""> <div class="rejseinfo1"> <a class="Capstxt">Norge</a> <br>Nordeuropas bedste dykkerspots ligger i Norge. Vi har 25 års erfaring med dyr i Norge. Oplev det klareste vand i verden!</br> </div> </div>
+                             <div id="rejs2" class="rejse2" data-component="Rejse2"> <img src="img/malta.jpg" alt=""> <div class="rejseinfo2"> <a class="Capstxt">Malta</a> <br>Oplev skønne malta og det syge dyreliv og sammenhold. Vi arrangerer dykkerrejser til Malta hele året rundt.<br> </div> </div>
                              <div id="linkrejse"> <a href="">Se flere destinationer og muligheder her...</a> </div>
                         </section>
 
-                        <section id="kurser">
+                    <!-- Kurser -->
+
+                        <section id="kurser" class="kurser" data-component="KurserSection">
                         
-                                <div class="infobox">
-                                    <h2 class="kursustext">PADI - Dykkercertifikat</h2>
+                                <div class="infoboxkurser" data-component="InfoBoxKurser">
+                                    <h2 class="kursustext" data-component="KursusText">PADI - Dykkercertifikat</h2>
                                 </div>
-                                <div class="infobox2">
+                                <div class="infobox2" data-component="InfoBox2">
                                     </div>
-                                <img id="padi" src="img/PADI.SVG" alt="">
-                                 <div id="linkkursus"><a href="">Se alle kurser og certifikater her...</a></div>
+                                <img id="padi" src="img/PADI_-_Logo.svg" alt="" data-component="PADISVG">
+                                 <div id="linkkursus" data-component="Linkkursus"><a href="">Se alle kurser og certifikater her...</a></div>
                             </section>
-                             -->
+                            
+                             </main>
+                             <footer>
+
+                             </footer>
                         
                    
 </body>

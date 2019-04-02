@@ -1,14 +1,14 @@
 import React from "react";
 import UdstyrImg3 from "./UdstyrImg3";
-import UdstyrText from "./UdstyrText";
-import UdstyrPris from "./UdstyrPris";
+import UdstyrTextItem3 from "./UdstyrTextItem3";
+import UdstyrPrisItem3 from "./UdstyrPrisItem3";
 
 class UdstyrDiv3 extends React.Component {
   render() {
     return (
       <div id="img3div" className="udstyrdiv3">
         {" "}
-        <UdstyrImg3 /> <UdstyrText /> <br /> <UdstyrPris /> <br />{" "}
+        <UdstyrImg3 /> <UdstyrTextItem3 /> <br /> <UdstyrPrisItem3 /> <br />{" "}
       </div>
     );
   }

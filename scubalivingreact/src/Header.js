@@ -1,19 +1,24 @@
 import React from "react";
-import HeaderLogoSection from "./HeaderLogoSection";
+import HeaderLogoImg from "./HeaderLogoImg";
 import Nav from "./Nav";
 import SearchBar from "./SearchBar";
-import ImgLockinLogo from "./ImgLockinLogo";
 import LoginBtn from "./LoginBtn";
 
 class Header extends React.Component {
   render() {
     return (
       <header className="header">
-        <HeaderLogoSection />
+        <section className="logo">
+          <HeaderLogoImg />
+        </section>
         <Nav />
-        {}
         <SearchBar />
-        <ImgLockinLogo />
+        <img
+          id="imglock"
+          src="img/lock-icon-300x300.png"
+          alt
+          className="imglockinlogo"
+        />
         <LoginBtn />
       </header>
     );

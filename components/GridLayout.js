@@ -7,7 +7,9 @@ class GridLayout extends React.Component {
     return (
       <div id="gridlayout" className="gridlayout">
         <Header />
+        {}
         <Main />
+        <footer />
       </div>
     );
   }

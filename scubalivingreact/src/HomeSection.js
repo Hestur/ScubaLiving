@@ -1,13 +1,13 @@
 import React from "react";
-import MainHeroImg from "./MainHeroImg";
-import InfoBox from "./InfoBox";
+import MainImg from "./MainImg";
+import InfoBoxMain from "./InfoBoxMain";
 
 class HomeSection extends React.Component {
   render() {
     return (
       <section id="home" className="home">
-        <MainHeroImg />
-        <InfoBox />
+        <MainImg />
+        <InfoBoxMain />
       </section>
     );
   }

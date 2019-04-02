@@ -1,14 +1,14 @@
 import React from "react";
 
-class UdstyrPris extends React.Component {
+class UdstyrPrisItem2 extends React.Component {
   render() {
     return (
       <a id="textpris" className="udstyrpris">
         {" "}
-        KR.899.-{" "}
+        KR.1499.-{" "}
       </a>
     );
   }
 }
 
-export default UdstyrPris;
+export default UdstyrPrisItem2;

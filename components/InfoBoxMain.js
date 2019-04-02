@@ -2,10 +2,10 @@ import React from "react";
 import Heading2 from "./Heading2";
 import Heading3 from "./Heading3";
 
-class InfoBox extends React.Component {
+class InfoBoxMain extends React.Component {
   render() {
     return (
-      <div className="infobox">
+      <div className="infoboxmain">
         <Heading2 />
         <Heading3 />
         <br />
@@ -14,4 +14,4 @@ class InfoBox extends React.Component {
   }
 }
 
-export default InfoBox;
+export default InfoBoxMain;
